@@ -1,0 +1,30 @@
+/* Write your CSS here */
+li {
+  width: 100%;
+  padding-left: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #d7dfe9;
+  border-collapse: collapse;
+}
+
+.table-text {
+  width: 25%;
+  color: #7e858e;
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+
+button {
+  width: 25%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.delete-image {
+  width: 18px;
+}
